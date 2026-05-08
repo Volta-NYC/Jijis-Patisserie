@@ -14,7 +14,10 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand-mark-small" href="#top" aria-label="Jiji's Patisserie home">jiji's</a>
+      <a class="brand-mark-small" href="#top" aria-label="Jiji's Patisserie home">
+        <img src="./files/profile-pic.png" alt="">
+        <span>jiji's</span>
+      </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#menu">Menu</a>
         <a href="#how">How it works</a>
@@ -25,12 +28,6 @@
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero__content">
-          <!-- PLACEHOLDER: Jiji's Patisserie logo image needed -->
-          <div class="logo-placeholder" role="img" aria-label="Jiji's Patisserie">
-            <span class="logo-placeholder__circle"></span>
-            <span class="logo-placeholder__name">jiji's</span>
-            <span class="logo-placeholder__sub">patisserie</span>
-          </div>
           <p class="eyebrow">Brooklyn pop-ups &amp; pre-order drops</p>
           <h1 id="hero-title">Jiji's Patisserie</h1>
           <p class="hero__tagline">Small batch Japanese-style salt bread. Brooklyn, NY.</p>
@@ -42,11 +39,15 @@
             <a class="button button--secondary" href="https://www.hotplate.com/jijispatisserie">Pre-order on Hotplate</a>
           </div>
         </div>
-        <div class="hero__panel" aria-hidden="true">
-          <p class="hero__panel-label">small batch</p>
-          <p class="hero__panel-main">salt bread</p>
-          <p class="hero__panel-note">walk-up pop-ups<br>limited Hotplate drops<br>until sold out</p>
-        </div>
+        <figure class="hero__visual">
+          <div class="profile-frame">
+            <img src="./files/profile-pic.png" alt="Jiji's Patisserie profile image">
+          </div>
+          <figcaption class="hero__caption">
+            <span>small batch</span>
+            Walk-up pop-ups, limited Hotplate drops, until sold out.
+          </figcaption>
+        </figure>
       </section>
 
       <section class="intro-section" aria-labelledby="about-title">

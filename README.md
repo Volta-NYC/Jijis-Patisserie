@@ -18,15 +18,16 @@ All asset paths are relative, so the site can also be opened locally by loading 
 - `styles.css` - Mobile-first responsive styling and local font declarations.
 - `assets/fonts/` - Locally served Playfair Display and Lora font files.
 - `files/info.md` - Source scrape report used to build the page.
+- `files/profile-pic.png` - Provided square profile image used in the header and hero section.
 
 ## Image Inventory
 
-No production image assets are currently included. The site intentionally uses brand-color blocks and a logo placeholder instead of stock photography.
+One production image asset is currently included: `files/profile-pic.png`, used as the header and hero brand image. The site still uses brand-color surfaces instead of stock photography.
 
 Needed from the owner:
 
-- Logo file, preferably SVG or transparent PNG. Description: black cat peeking over or holding golden-brown salt bread, inside a magenta circle, with the "jiji's patisserie" wordmark.
-- Hero product photo of salt bread.
+- Optional transparent logo file, preferably SVG or PNG, if the owner wants to replace the current square profile image.
+- Hero product photo of salt bread, if the owner wants to replace the current profile image.
 - Product photos for Original Salt Bread, Honey Butter Salt Bread, Black Truffle Salt Bread, Shanghai Butter Mochi, and the Simple Salt Bread Flight.
 - Action photo of Manni baking or packaging.
 - Pop-up setup photo showing the table/menu/signage.
@@ -38,7 +39,7 @@ Temporary remote asset noted in the scrape report:
 
 ## Missing Information for the Owner
 
-- Logo file, PNG or SVG.
+- Optional transparent logo file, PNG or SVG, if preferred over the square profile image.
 - Product photos for salt bread, mochi, flight, and pop-up setup.
 - Whether the site should keep a permanent "next event" section or only point to Instagram.
 - Confirmed contact method, if anything beyond Instagram DM should be listed.
