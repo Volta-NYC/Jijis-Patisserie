@@ -16,6 +16,7 @@ All asset paths are relative, so the site can also be opened locally by loading 
 
 - `index.html` - Semantic single-page website content.
 - `styles.css` - Mobile-first responsive styling and local font declarations.
+- `script.js` - Small scroll reveal enhancement using IntersectionObserver.
 - `assets/fonts/` - Locally served Playfair Display and Lora font files.
 - `files/info.md` - Source scrape report used to build the page.
 - `files/profile-pic.png` - Provided square profile image used in the header and hero section.
